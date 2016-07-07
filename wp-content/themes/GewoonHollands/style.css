@@ -15,58 +15,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 
-/**
- * Table of Contents
- *
- * 1.0 - Normalize
- * 2.0 - Genericons
- * 3.0 - Typography
- * 4.0 - Elements
- * 5.0 - Forms
- * 6.0 - Navigation
- *   6.1 - Links
- *   6.2 - Menus
- * 7.0 - Accessibility
- * 8.0 - Alignments
- * 9.0 - Clearings
- * 10.0 - Widgets
- * 11.0 - Content
- *    11.1 - Header
- *    11.2 - Posts and pages
- *    11.3 - Post Formats
- *    11.4 - Comments
- *    11.5 - Sidebar
- *    11.6 - Footer
- * 12.0 - Media
- *    12.1 - Captions
- *    12.2 - Galleries
- * 13.0 - Multisite
- * 14.0 - Media Queries
- *    14.1 - >= 710px
- *    14.2 - >= 783px
- *    14.3 - >= 910px
- *    14.4 - >= 985px
- *    14.5 - >= 1200px
- * 15.0 - Print
- */
-
-
-/**
- * 1.0 - Normalize
- *
- * Normalizing styles have been helped along thanks to the fine work of
- * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
- */
-
-html {
-	font-family: sans-serif;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
-
-body {
-	margin: 0;
-}
 
 article,
 aside,
@@ -101,9 +49,6 @@ template {
 	display: none;
 }
 
-a {
-	background-color: transparent;
-}
 
 abbr[title] {
 	border-bottom: 1px dotted;
@@ -157,31 +102,6 @@ kbd,
 pre,
 samp {
 	font-size: 1em;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-	color: inherit;
-	font: inherit;
-	margin: 0;
-}
-
-select {
-	text-transform: none;
-}
-
-button {
-	overflow: visible;
-}
-
-button,
-input,
-select,
-textarea {
-	max-width: 100%;
 }
 
 button,
@@ -241,11 +161,6 @@ fieldset > :last-child {
 legend {
 	border: 0;
 	padding: 0;
-}
-
-textarea {
-	overflow: auto;
-	vertical-align: top;
 }
 
 optgroup {
