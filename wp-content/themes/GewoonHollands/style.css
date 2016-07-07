@@ -203,18 +203,6 @@ optgroup {
  * 3.0 - Typography
  */
 
-body,
-button,
-input,
-select,
-textarea {
-	color: #1a1a1a;
-	font-family: Merriweather, Georgia, serif;
-	font-size: 16px;
-	font-size: 1rem;
-	line-height: 1.75;
-}
-
 h1,
 h2,
 h3,
