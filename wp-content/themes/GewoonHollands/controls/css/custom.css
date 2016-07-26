@@ -1,0 +1,73 @@
+.sucsmsg{
+	color:green;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	padding:5px 0;
+	background:#8FE1AA;
+}
+#wpfooter{display:none;}
+  img.drag {
+      /*width: 60px;
+      height: 40px;*/
+      position: relative;
+  }
+  .drp {
+      width: 100%;;
+      height: 150px;
+      border-top: 2px dotted #ccc;
+	  border-b: 2ottompx dotted #ccc;
+  }
+  .right {
+      float: right;
+  }
+  .left {
+      float: left;
+  }
+  .clear {
+      clear: both;
+  }
+  .drag-list img {
+      min-width: 80px;
+	  max-width:150px;
+      vertical-align: middle;
+      cursor: move;
+  }
+  .drag-list ul {
+      margin: 0px;
+      padding: 0px;
+  }
+  .drag-list li {
+      margin-bottom: 5px;
+  }
+  .remove-drag-hover {
+      background-color: #ED4949 !important;
+  }
+ .mycavas > div.drop-area:hover {
+      background-color: #afd1b2;
+  }
+  .xicon {
+      margin-top: 4px;
+      position: absolute;
+      margin-top: -4px;
+      background: #FFF;
+      font: message-box;
+      text-decoration: none;
+	  right:-4px;
+	  border:1px solid;
+	  border-radius:10px;
+	  padding:2px 5px;
+  }
+  .xicon:hover {
+      background-color: #fff;
+      color: #000;
+      width: 13px;
+      height: 20px;
+      text-align: center;
+  }
+  .tip {
+      font-size: 12px;
+      clear: both;
+  }
+  .mycavas div.block{padding:10px; border:1px solid #ccc;}
+  .ui-state-highlight{background:#FF8B8B;}
